@@ -1,5 +1,5 @@
 DESIGNED BY S.M.A Coding Channel
-<h1 align="center"><img src="https://github.com/helwan-linux/Al-Amal/blob/main/logo.png"></img><br>Helwan Linux Developer Edition</h1>
+<h1 align="center"><img src="https://github.com/helwan-linux/Helwan-Artwork/blob/main/icons/icon.png"></img><br>Helwan Linux Developer Edition</h1>
 <p align="center">Arch-Linux based distro built with <code>archiso for programmers and youtubers</code>.</p>
 
 Helwan O.S 

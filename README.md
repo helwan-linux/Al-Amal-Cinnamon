@@ -18,7 +18,6 @@ it contains everything the programmer and the youtuber mostly needs such as :
         qtcreator
         qt5-tools
         dbeaver
-        sublime-text
 
 2 - Programming languages and tools
 
@@ -45,7 +44,6 @@ it contains everything the programmer and the youtuber mostly needs such as :
         vlc
         audacious
         vokoscreen
-        shotcut
 
 not only what mentioned appove , you will find a lot of useful and handy tools to make it easy
 to use your p.c such as :
@@ -69,7 +67,8 @@ to use your p.c such as :
         gufw
         mtools
         htop
-        paru
+        yay
+        pamac
 
 not only that you will find pure fast O.S with many other packages 
 

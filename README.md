@@ -4,8 +4,8 @@ DESIGNED BY S.M.A Coding Channel
 
 Helwan O.S 
 ===========
-Helwan O.S is Arch Linux based distro built with archiso v 82 and Calamares 3.3.12
-its version is Helwan Linux Al-Amal Cinnamon V 10
+Helwan O.S is Arch Linux based distro built with archiso and Calamares 
+its version is Helwan Linux Al-Amal MainLine Kernel Cinnamon V 2
 
 it contains everything the programmer and the youtuber mostly needs such as :
 

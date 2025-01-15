@@ -78,7 +78,7 @@ you can find the distro on :
 
         https://helwan-linux.mystrikingly.com/
 
-       = sooner forum's distro and irc channel will be added
+       https://helwanlinux.createaforum.com/index.php
 
 
 # Requirements

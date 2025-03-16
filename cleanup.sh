@@ -3,12 +3,12 @@
 # Program Description: Deletes directories "out/" and "work/" 
 # Developer: Saeed badrelden [saeedbadrelden2021@gmail.com]
 # Operating System Distribution: Helwan OS
-#Distro Mail:helwanlinux@gmail.com
+# Distro Mail:helwanlinux@gmail.com
 # Version: al-amal
 # Date: [25 Mar 2025]
-#Blogger:https://helwan-linux.blogspot.com/
-#WebSite:https://helwan-linux.mystrikingly.com/
-#Forum:https://helwanlinux.createaforum.com/index.php
+# Blogger:https://helwan-linux.blogspot.com/
+# WebSite:https://helwan-linux.mystrikingly.com/
+# Forum:https://helwanlinux.createaforum.com/index.php
 
 #set -e
 

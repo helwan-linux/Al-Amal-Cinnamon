@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Program Description: Deletes directories "out/" and "work/" 
+# Program Description: building Helwan Linux 
 # Developer: Saeed badrelden [saeedbadrelden2021@gmail.com]
 # Operating System Distribution: Helwan OS
 # Distro Mail:helwanlinux@gmail.com

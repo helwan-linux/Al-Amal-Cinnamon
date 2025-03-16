@@ -10,14 +10,19 @@
 # WebSite:https://helwan-linux.mystrikingly.com/
 # Forum:https://helwanlinux.createaforum.com/index.php
 
+
 echo "Building Helwan Linux Distribution..."
 echo "" # Empty line for better readability
 
+
 if sudo mkarchiso -v "."; then
-  echo "Helwan Linux Distribution build completed successfully!"
+  echo "Helwan Linux building completed successfully!"
 else
-  echo "Helwan Linux Distribution build failed. Please check the logs for errors."
+  echo "Helwan Linux Distribution building failed. "
+  echo""
+  echo "Please check the logs for errors."
   exit 1 # Exit with an error code to indicate failure
 fi
+
 
 echo "Build process finished."

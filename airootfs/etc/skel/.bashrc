@@ -25,4 +25,4 @@ alias remove="sudo pacman -R"
 alias autoremove="sudo pacman -Rns"
 alias helwan="uname -a"
 
-PS1="\[\e[1;36m\]Helwan ➤ \[\e[0m\]"
+PS1="\[\e[1;40m\]Helwan ➤ \[\e[0m\]"

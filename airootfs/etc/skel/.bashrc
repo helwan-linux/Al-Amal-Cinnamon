@@ -39,13 +39,10 @@ echo -e "\e[97m\033[1m\033[3m
  | |  | |  __/ |\ V  V / (_| | | | |
  |_|  |_|\___|_| \_/\_/ \__,_|_| |_|
 
-        Welcome back, $USER! You're running $DISTRO. Ready to command the shell 🚀
+ Welcome back, $USER! You're running $DISTRO. Ready to command the shell 🚀
 \e[0m"
 
 # === Prompt Styling ===
 # كلمة Helwan باللون الأبيض، ثخينة ومائلة
 # السهم باللون الأزرق
 PS1="\[\e[97m\]\033[1m\033[3mHelwan\[\e[0m\] \[\e[34m\]➤ \[\e[0m\]"
-# تفعيل المحث: كلمة "Helwan" باللون الأبيض (ثخينة ومائلة)، السهم باللون الأزرق
-PS1="\[\e[97m\]\033[1m\033[3mHelwan\[\e[0m\] \[\e[34m\]➤ \[\e[0m\]"
-

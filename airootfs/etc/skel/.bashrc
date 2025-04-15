@@ -25,4 +25,26 @@ alias remove="sudo pacman -R"
 alias autoremove="sudo pacman -Rns"
 alias helwan="uname -a"
 
-PS1="\[\e[1;40m\]Helwan ➤ \[\e[0m\]"
+
+clear
+USER=$(whoami)
+DISTRO="Helwan Linux"
+cat << EOF
+
+\[\e[97m\]\033[1m\033[3m
+  _    _      _                     
+ | |  | |    | |                    
+ | |__| | ___| |_      ____ _ _ __  
+ |  __  |/ _ \ \ \ /\ / / _` | '_ \ 
+ | |  | |  __/ |\ V  V / (_| | | | |
+ |_|  |_|\___|_| \_/\_/ \__,_|_| |_|
+                                    
+        Welcome back, $USER! You're running $DISTRO. Ready to command the shell 🚀
+
+\[\e[0m\]
+
+EOF
+
+# تفعيل المحث: كلمة "Helwan" باللون الأبيض (ثخينة ومائلة)، السهم باللون الأزرق
+PS1="\[\e[97m\]\033[1m\033[3mHelwan\[\e[0m\] \[\e[34m\]➤ \[\e[0m\]"
+

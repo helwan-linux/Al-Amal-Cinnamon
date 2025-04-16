@@ -1,0 +1,143 @@
+### توثيق حزم توزيعة حلوان لينكس (Helwan Linux)
+
+---
+
+## قسم: archiso-packages
+
+### الهدف:
+يحتوي هذا القسم على الأدوات الأساسية لإنشاء بيئة إقلاع مباشر (Live Environment) وتثبيت النظام، بالإضافة إلى دعم أنظمة الملفات والتعامل مع الشبكات واسترداد البيانات.
+
+### الحزم:
+- `alsa-utils`: أدوات التحكم في صوت ALSA.
+- `amd-ucode`: تحديثات معالجات AMD.
+- `arch-install-scripts`: سكربتات تثبيت Arch Linux.
+- `archinstall`: أداة التثبيت التفاعلي الخاصة بـ Arch.
+- `b43-fwcutter`: أداة لاستخلاص الفيرموير لكروت Broadcom.
+- `base`: الحزمة الأساسية التي تحتوي على أدوات النظام.
+- `bcachefs-tools`: أدوات التعامل مع نظام الملفات Bcachefs.
+- `bind`: خادم DNS.
+- `bolt`: إدارة أجهزة Thunderbolt.
+- `brltty`: دعم قارئ الشاشة للمكفوفين.
+- `broadcom-wl`: تعريفات Broadcom اللاسلكية.
+- `btrfs-progs`: أدوات التعامل مع نظام ملفات Btrfs.
+- `clonezilla`: استنساخ الأقراص.
+- `cloud-init`: إعداد تلقائي للسحابة.
+- `cryptsetup`: تشفير الأقراص باستخدام LUKS.
+- `darkhttpd`: خادم ويب بسيط وخفيف.
+- `ddrescue`: استعادة البيانات من الأقراص التالفة.
+- `dhclient`: وكيل DHCP.
+- `dhcpcd`: عميل DHCP بديل.
+- `diffutils`: أدوات مقارنة الملفات.
+- `dmidecode`: استعراض معلومات الجهاز من BIOS.
+- `dmraid`: دعم مصفوفات RAID في الـ BIOS.
+- `dnsmasq`: خادم DNS و DHCP صغير.
+- `dosfstools`: أدوات إدارة نظام ملفات FAT.
+- `e2fsprogs`: أدوات لإدارة نظام ملفات ext.
+- `edk2-shell`: شل UEFI.
+- `efibootmgr`: إدارة الإقلاع عبر EFI.
+- `espeakup`: قارئ شاشة للمكفوفين.
+- `ethtool`: إعدادات كرت الشبكة.
+- `exfatprogs`: أدوات نظام ملفات exFAT.
+- `f2fs-tools`: أدوات نظام ملفات F2FS.
+- `fatresize`: تغيير حجم أقسام FAT.
+- `foot-terminfo`: بيانات تعريف terminal لـ foot.
+- `fsarchiver`: أداة نسخ احتياطي متقدمة.
+- `gpart`: أداة تقسيم الأقراص.
+- `gpm`: دعم الفأرة في الوضع النصي.
+- `gptfdisk`: أداة إدارة أقسام GPT.
+- `grml-zsh-config`: إعدادات zsh جاهزة.
+- `grub`: محمل الإقلاع.
+- `hdparm`: أداة تهيئة الأقراص الصلبة.
+- `hyperv`: دعم التشغيل على بيئة Hyper-V.
+- `intel-ucode`: تحديثات معالجات Intel.
+- `irssi`: عميل IRC.
+- `iw`: أداة التحكم في الشبكات اللاسلكية.
+- `iwd`: بديل خفيف لـ wpa_supplicant.
+- `jfsutils`: أدوات نظام ملفات JFS.
+- `kitty-terminfo`: دعم kitty terminal.
+- `ldns`: مكتبة DNS.
+- `less`: لعرض النصوص في الطرفية.
+- `lftp`: عميل FTP متقدم.
+- `libfido2`: دعم مفاتيح أمان FIDO2.
+- `libusb-compat`: توافق USB القديم.
+- `linux`: نواة لينكس.
+- `linux-atm`: دعم بروتوكولات ATM.
+- `linux-firmware`: تعاريف عامة للأجهزة.
+- `linux-firmware-marvell`: تعاريف أجهزة Marvell.
+- `livecd-sounds`: أصوات النظام الحي.
+- `lsscsi`: استعراض أجهزة SCSI.
+- `lvm2`: إدارة الأقراص المنطقية.
+- `lynx`: متصفح نصي.
+- `man-db`: قاعدة بيانات الصفحات اليدوية.
+- `man-pages`: توثيق النظام.
+- `mc`: مدير ملفات Midnight Commander.
+- `mdadm`: أدوات RAID برمجية.
+- `memtest86+`: اختبار الذاكرة RAM.
+- `memtest86+-efi`: إصدار EFI من اختبار الذاكرة.
+- `mkinitcpio`: توليد ramdisk.
+- `mkinitcpio-archiso`: إعداد ramdisk لتوزيعة Arch ISO.
+- `mkinitcpio-nfs-utils`: دعم إقلاع الشبكة.
+- `modemmanager`: إدارة أجهزة المودم.
+- `mtools`: أدوات FAT في بيئة غير Linux.
+- `nano`: محرر نصوص بسيط.
+- `nbd`: دعم الأقراص عبر الشبكة.
+- `ndisc6`: أدوات بروتوكول الجيل السادس.
+- `nfs-utils`: دعم نظام ملفات الشبكة NFS.
+- `nilfs-utils`: أدوات NILFS.
+- `nmap`: أداة فحص الشبكة.
+- `ntfs-3g`: دعم نظام ملفات NTFS.
+- `nvme-cli`: أدوات أقراص NVMe.
+- `open-iscsi`: دعم بروتوكول iSCSI.
+- `open-vm-tools`: أدوات الأجهزة الافتراضية لـ VMware.
+- `openconnect`: عميل VPN.
+- `openpgp-card-tools`: أدوات البطاقات الذكية PGP.
+- `openssh`: خادم وعميل SSH.
+- `openvpn`: عميل VPN.
+- `partclone`: استنساخ الأقسام.
+- `parted`: أداة تقسيم مرنة.
+- `partimage`: استنساخ الأقسام.
+- `pcsclite`: دعم البطاقات الذكية.
+- `ppp`: بروتوكول اتصال.
+- `pptpclient`: عميل PPTP VPN.
+- `pv`: أداة مراقبة نقل البيانات.
+- `qemu-guest-agent`: دعم الضيف في QEMU.
+- `refind`: محمل إقلاع UEFI بديل.
+- `reflector`: تحديث خوادم المرايا.
+- `rp-pppoe`: دعم PPPoE.
+- `rsync`: مزامنة الملفات.
+- `rxvt-unicode-terminfo`: بيانات الترمنال rxvt-unicode.
+- `screen`: إدارة الجلسات الطرفية.
+- `sdparm`: إعدادات أجهزة SCSI.
+- `sequoia-sq`: أدوات GPG جديدة.
+- `sg3_utils`: أدوات أجهزة SCSI.
+- `smartmontools`: مراقبة صحة الأقراص.
+- `sof-firmware`: دعم معالجات الصوت.
+- `squashfs-tools`: ضغط ملفات squashfs.
+- `sudo`: صلاحيات الجذر المؤقتة.
+- `syslinux`: محمل إقلاع بديل.
+- `systemd-resolvconf`: توافق مع resolvconf.
+- `tcpdump`: تحليل الشبكة.
+- `terminus-font`: خطوط الترمنال.
+- `testdisk`: استعادة الأقسام المفقودة.
+- `tmux`: تقسيم الطرفية لجلسات متعددة.
+- `tpm2-tools`: أدوات شريحة TPM.
+- `tpm2-tss`: مكتبة TPM.
+- `udftools`: أدوات نظام ملفات UDF.
+- `usb_modeswitch`: تفعيل أجهزة USB.
+- `usbmuxd`: دعم أجهزة Apple.
+- `usbutils`: أدوات USB.
+- `vim`: محرر نصوص متقدم.
+- `virtualbox-guest-utils-nox`: دعم الأجهزة الافتراضية بدون X.
+- `vpnc`: عميل VPN.
+- `wireless-regdb`: قاعدة بيانات القنوات اللاسلكية.
+- `wireless_tools`: أدوات الشبكة اللاسلكية القديمة.
+- `wpa_supplicant`: الاتصال بالشبكات اللاسلكية.
+- `wvdial`: أداة الاتصال عبر مودم.
+- `xfsprogs`: أدوات نظام ملفات XFS.
+- `xl2tpd`: عميل VPN.
+- `zsh`: شل متقدم للمستخدمين.
+
+---
+
+
+

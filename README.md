@@ -7,13 +7,17 @@ Helwan Linux Al-Amal - Cinnamon Edition
 Built on top of Arch Linux using archiso and Calamares
 Designed by developers, for developers and creators
 
+
+
 🚀 What is Helwan O.S?
+
 Helwan O.S is not just another Linux distro.
 It’s a handcrafted Arch-based system built to empower programmers, YouTubers, and power users with a fast, secure, and full-featured desktop — right out of the box.
 
 With the Cinnamon desktop, the elegance of simplicity meets the power of performance.
 
 💡 What's inside?
+
 Everything a creative or a coder needs — already preinstalled and ready to go.
 
 ✍️ 1. Code Editors & Dev Tools
@@ -106,6 +110,8 @@ YAY – AUR helper for installing community packages
 Pamac – GUI package manager
 
 ✨ And much more...
+
+
 Helwan O.S also includes:
 
 NetworkManager and BlueZ for flawless networking & Bluetooth
@@ -118,6 +124,8 @@ ZRAM Generator for RAM compression and performance
 
 System-config-printer & CUPS for smooth printing support
 
+
+
 📥 Where to get Helwan O.S?
 Available on:
 
@@ -126,6 +134,8 @@ Available on:
 🌐 https://helwan-linux.mystrikingly.com/
 
 🧵 https://helwanlinux.createaforum.com/index.php
+
+
 
 🖥️ System Requirements
 ✅ Recommended:
@@ -147,9 +157,7 @@ Available on:
 🖥️ Integrated GPU (or external)
 
 🧪 Useful Commands (Aliases)
-bash
-Copy
-Edit
+
 alias sync="sudo pacman -Syyy"            # Force sync with all mirrors
 alias install="sudo pacman -S"            # Install a package
 alias update="sudo pacman -Syyu"          # Update all system packages
@@ -157,8 +165,5 @@ alias search="sudo pacman -Ss"            # Search package in repos
 alias search-local="sudo pacman -Qs"      # Search installed packages
 alias pkg-info="sudo pacman -Qi"          # Show package details
 alias local-install="sudo pacman -U"      # Install local .pkg.tar.zst
-* alias clr-cache="sudo pacman -Scc"
-* alias unlock="sudo rm /var/lib/pacman/db.lck"
-* alias remove="sudo pacman -R"
-* alias autoremove="sudo pacman -Rns"
-* alias helwan="uname -a"
+alias helwan = "uname -a"
+

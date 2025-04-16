@@ -2,110 +2,161 @@ DESIGNED BY S.M.A Coding Channel
 <h1 align="center"><img src="https://github.com/helwan-linux/Helwan-Artwork/blob/main/icons/icon.png"></img><br>Helwan Linux Developer Edition</h1>
 <p align="center">Arch-Linux based distro built with <code>archiso for programmers and youtubers</code>.</p>
 
-Helwan O.S 
-===========
-Helwan O.S is Arch Linux based distro built with archiso and Calamares 
-its version is Helwan Linux Al-Amal MainLine Kernel Cinnamon
+Welcome to Helwan O.S
+Helwan Linux Al-Amal - Cinnamon Edition
+Built on top of Arch Linux using archiso and Calamares
+Designed by developers, for developers and creators
 
-it contains everything the programmer and the youtuber mostly needs such as :
+🚀 What is Helwan O.S?
+Helwan O.S is not just another Linux distro.
+It’s a handcrafted Arch-based system built to empower programmers, YouTubers, and power users with a fast, secure, and full-featured desktop — right out of the box.
 
-1 - EDITORS
+With the Cinnamon desktop, the elegance of simplicity meets the power of performance.
 
-        geany
-        code
-        meld
-        python-pyqt5
-        qtcreator
-        qt5-tools
-        dbeaver
+💡 What's inside?
+Everything a creative or a coder needs — already preinstalled and ready to go.
 
-2 - Programming languages and tools
+✍️ 1. Code Editors & Dev Tools
+Lightweight, powerful, and versatile development environments:
 
-        git
-        perl
-        python
-        jdk
-        php
-        nodejs
-        go
-        rust
-        lua
-        sqlite
-        mariadb
+Geany – Fast & simple IDE for any language
 
-3 - Docker tools
+VS Code (code) – Industry-standard code editor
 
-        docker
-        docker-compose
-        lazydocker
+Meld – Visual diff and merge tool
 
-4 - Multimedia
+Python-PyQt5 – Build stunning GUIs in Python
 
-        vlc
-        audacious
-        vokoscreen
+QtCreator + qt5-tools – C++ GUI development made easy
 
-not only what mentioned appove , you will find a lot of useful and handy tools to make it easy
-to use your p.c such as :
+DBeaver – A universal SQL client & DB management platform
 
-1 - Connection
+🧠 2. Programming Languages & Dev Environments
+From scripting to system programming, everything’s here:
 
-        firefox
-        kdeconnect
-        hexchat
-        geary
+Git – Version control system
 
-2 - office
+Perl – Practical text-processing language
 
-        libreoffice-still
+Python – Versatile scripting & AI
 
-3 - system tools
+OpenJDK (jdk) – Java development environment
 
-        timeshift
-        gparted
-        ufw
-        gufw
-        mtools
-        htop
-        yay
-        pamac
+PHP – Web scripting
 
-not only that you will find pure fast O.S with many other packages 
+Node.js – JavaScript runtime
 
-you can find the distro on :
+Go – Fast systems/network programming
 
-        https://helwan-linux.blogspot.com/
+Rust – Memory-safe performance
 
-        https://helwan-linux.mystrikingly.com/
+Lua – Lightweight embedded scripting
 
-       https://helwanlinux.createaforum.com/index.php
+SQLite – Embedded SQL engine
 
+MariaDB – High-performance relational DB
 
-# Requirements
-To run Helwan Linux smoothly, you should meet these requirements:
+🐳 3. Docker & DevOps Ready
+Containers and orchestration tools preloaded:
 
-### Recommended requirements
-* 4 GB or more RAM
-* Any modern 64-bit CPU (dual core or more)
-* 32 GB or more storage
-* Any modern GPU
+Docker – Build and run containers
 
-### Minimum requirements
-* 3 GB or more RAM
-* 64-bit CPU (single core or more)
-* 16 GB or more storage
-* At least an iGPU (otherwise how you will get display output?)
+Docker-Compose – Manage multi-container apps
 
-useful commands :
-==============
+Lazydocker – Terminal UI for managing Docker
 
-* alias sync="sudo pacman -Syyy"
-* alias install="sudo pacman -S"
-* alias update="sudo pacman -Syyu"
-* alias search="sudo pacman -Ss"
-* alias search-local="sudo pacman -Qs"
-* alias pkg-info="sudo pacman -Qi"
-* alias local-install="sudo pacman -U"
+🎬 4. Multimedia Creation
+Create, record, and consume content:
+
+VLC – All-format video/audio player
+
+Audacious – Lightweight music player
+
+Vokoscreen – Screen recorder for tutorials
+
+🌐 5. Internet & Communication
+Stay connected:
+
+Firefox – Secure, fast web browser
+
+KDEConnect – Sync your phone with your PC
+
+HexChat – Modern IRC client
+
+Geary – Lightweight email client
+
+📝 6. Office Suite
+LibreOffice Still – Full-featured document editing suite
+
+⚙️ 7. System Tools & Utilities
+Your Swiss army knife of system control:
+
+Timeshift – System restore like Time Machine
+
+GParted – Partition management made easy
+
+UFW + GUFW – Firewall management CLI + GUI
+
+MTools – Access MS-DOS disks
+
+HTop – Interactive system monitor
+
+YAY – AUR helper for installing community packages
+
+Pamac – GUI package manager
+
+✨ And much more...
+Helwan O.S also includes:
+
+NetworkManager and BlueZ for flawless networking & Bluetooth
+
+PipeWire for next-gen audio/video
+
+ArchISO Tools to remaster your own distro
+
+ZRAM Generator for RAM compression and performance
+
+System-config-printer & CUPS for smooth printing support
+
+📥 Where to get Helwan O.S?
+Available on:
+
+🌐 https://helwan-linux.blogspot.com/
+
+🌐 https://helwan-linux.mystrikingly.com/
+
+🧵 https://helwanlinux.createaforum.com/index.php
+
+🖥️ System Requirements
+✅ Recommended:
+💾 4GB+ RAM
+
+💻 Dual-core+ 64-bit CPU
+
+💽 32GB+ storage
+
+🖼️ Any modern GPU
+
+⚠️ Minimum:
+💾 3GB RAM
+
+💻 Any 64-bit CPU
+
+💽 16GB storage
+
+🖥️ Integrated GPU (or external)
+
+🧪 Useful Commands (Aliases)
+bash
+Copy
+Edit
+alias sync="sudo pacman -Syyy"            # Force sync with all mirrors
+alias install="sudo pacman -S"            # Install a package
+alias update="sudo pacman -Syyu"          # Update all system packages
+alias search="sudo pacman -Ss"            # Search package in repos
+alias search-local="sudo pacman -Qs"      # Search installed packages
+alias pkg-info="sudo pacman -Qi"          # Show package details
+alias local-install="sudo pacman -U"      # Install local .pkg.tar.zst
 * alias clr-cache="sudo pacman -Scc"
 * alias unlock="sudo rm /var/lib/pacman/db.lck"
 * alias remove="sudo pacman -R"

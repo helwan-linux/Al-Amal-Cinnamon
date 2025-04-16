@@ -135,6 +135,393 @@
 - `zsh`: صدفة ZSH المتقدمة.
 
 ---
+✅ قسم: calamares
+1. calamares
+🔹 AR: مُثبت رسومي عالمي يدعم توزيعات لينكس، يتميز بالمرونة وسهولة التخصيص.
+🔹 EN: A universal graphical installer framework for Linux distributions, known for its flexibility and customization.
 
+2. hel-calamares-config
+🔹 AR: إعدادات مخصصة لتثبيت توزيعة "حلوان لينكس" باستخدام Calamares، توفّر تجربة تثبيت مبسطة.
+🔹 EN: Custom configuration for installing Helwan Linux using Calamares, delivering a simplified installation experience.
+
+3. os-prober
+🔹 AR: أداة لاكتشاف أنظمة التشغيل الأخرى عند التثبيت وإضافتها إلى محمل الإقلاع تلقائيًا.
+🔹 EN: A tool that detects other operating systems and automatically adds them to the bootloader menu.
+
+4. ckbcomp
+🔹 AR: أداة لإعداد تخطيطات لوحة المفاتيح، مفيدة للتثبيت بلغات مختلفة.
+🔹 EN: A utility for compiling keyboard layouts, useful for multilingual installation setups.
+
+5. mkinitcpio-openswap
+🔹 AR: إضافة لـ mkinitcpio تُمكّن من دعم ملفات التبديل المشفرة أثناء التمهيد.
+🔹 EN: An mkinitcpio hook to support encrypted swap files during boot.
+
+
+
+✅ قسم: GUI-packages
+1. xorg
+🔹 AR: خادم العرض الأساسي في لينكس، يوفر البنية التحتية لتشغيل واجهات المستخدم الرسومية.
+🔹 EN: The core display server in Linux that provides the infrastructure for graphical interfaces.
+
+2. xorg-apps
+🔹 AR: مجموعة من الأدوات المفيدة لصيانة وعرض إعدادات Xorg، مثل xrandr وxev.
+🔹 EN: A collection of utilities for managing and debugging the Xorg server, like xrandr and xev.
+
+3. xf86-input-libinput
+🔹 AR: برنامج تشغيل أجهزة الإدخال (الماوس ولوحة اللمس) المستند إلى مكتبة libinput.
+🔹 EN: An input driver for handling touchpads, mice, and other input devices using the libinput library.
+
+4. xdg-user-dirs
+🔹 AR: أداة لإنشاء مجلدات المستخدم القياسية (مثل المستندات، الصور).
+🔹 EN: A utility to manage standard user directories (like Documents, Pictures).
+
+5. lightdm
+🔹 AR: مدير دخول خفيف يدعم تعدد الجلسات، يُستخدم لتسجيل الدخول البياني للمستخدمين.
+🔹 EN: A lightweight display manager supporting various desktop sessions for graphical login.
+
+6. lightdm-slick-greeter
+🔹 AR: شاشة ترحيب رسومية أنيقة لـ LightDM، توفر واجهة سلسة للمستخدم.
+🔹 EN: A modern and polished greeter for LightDM, providing a smooth user interface.
+
+7. base-devel
+🔹 AR: مجموعة أدوات التطوير الأساسية لبناء الحزم من المصدر (مثل make، gcc).
+🔹 EN: A collection of essential development tools needed to build packages from source (e.g., make, gcc).
+
+8. pacman-contrib
+🔹 AR: أدوات إضافية لـ pacman مثل checkupdates و paccache لإدارة الحزم بذكاء.
+🔹 EN: Additional utilities for pacman like checkupdates and paccache for advanced package management.
+
+9. bash-completion
+🔹 AR: يوفر الإكمال التلقائي للأوامر في الطرفية باستخدام bash، مما يسهل تجربة الاستخدام.
+🔹 EN: Provides command-line auto-completion in the bash shell for a more efficient terminal experience.
+
+10. xterm
+🔹 AR: أحد أقدم برامج المحاكاة الطرفية، خفيف وسريع ومناسب للبيئات البسيطة.
+🔹 EN: One of the oldest terminal emulators, known for its speed and lightweight design.
+
+
+
+✅ قسم: بيئة سطح المكتب - desktop-environment
+1. cinnamon
+🔹 AR: بيئة سطح مكتب أنيقة ومستقرة، مبنية على GNOME وتتميز بسهولة الاستخدام.
+🔹 EN: A sleek and stable desktop environment built on GNOME, known for user-friendliness.
+
+2. nemo-fileroller
+🔹 AR: دمج بين مدير الملفات Nemo وأداة فك وضغط الملفات FileRoller.
+🔹 EN: Integration between Nemo file manager and FileRoller archive manager.
+
+3. evince
+🔹 AR: عارض مستندات خفيف لملفات PDF وPS.
+🔹 EN: A lightweight document viewer for PDF and PS files.
+
+4. gedit
+🔹 AR: محرر نصوص بسيط وسهل الاستخدام، يدعم إبراز الصيغة البرمجية.
+🔹 EN: A simple text editor with syntax highlighting.
+
+5. xfce4-terminal
+🔹 AR: طرفية خفيفة وسريعة من بيئة XFCE، قابلة للتخصيص.
+🔹 EN: A fast and lightweight terminal emulator from XFCE.
+
+6. galculator
+🔹 AR: آلة حاسبة رسومية بسيطة للعمليات الحسابية اليومية.
+🔹 EN: A graphical calculator for basic and scientific operations.
+
+7. cheese
+🔹 AR: تطبيق لالتقاط الصور والفيديو من الكاميرا باستخدام واجهة رسومية.
+🔹 EN: A webcam application to take photos and videos with effects.
+
+8. gnome-screenshot
+🔹 AR: أداة لالتقاط لقطات الشاشة بسهولة من سطح المكتب.
+🔹 EN: A simple screenshot tool for GNOME environments.
+
+9. eog (Eye of GNOME)
+🔹 AR: عارض صور خفيف لسطح المكتب.
+🔹 EN: A lightweight image viewer for GNOME.
+
+10. neofetch
+🔹 AR: أداة لعرض معلومات النظام بشكل جميل داخل الطرفية.
+🔹 EN: A CLI tool that displays system information with style.
+
+11. gimp
+🔹 AR: برنامج تحرير صور احترافي مفتوح المصدر.
+🔹 EN: A professional open-source image editor.
+
+12. gnome-keyring
+🔹 AR: مدير لكلمات المرور والمفاتيح يستخدمه النظام لتأمين التطبيقات.
+🔹 EN: A key and password manager that integrates with the desktop for secure storage.
+
+✅ تم توثيق القسم: desktop-environment
+
+✅ قسم: Themes & Icons - ثيمات وأيقونات
+1. tela-circle-icon-theme-blue
+🔹 AR: حزمة أيقونات دائرية أنيقة باللون الأزرق.
+🔹 EN: A sleek, circular blue icon theme.
+
+2. qogir-gtk-theme-git
+🔹 AR: ثيم GTK عصري مستوحى من تصميم macOS وWindows.
+🔹 EN: A modern GTK theme inspired by macOS and Windows.
+
+3. mate-icon-theme-faenza
+🔹 AR: حزمة أيقونات كلاسيكية مستخدمة في بيئة MATE.
+🔹 EN: A classic icon theme often used with the MATE desktop.
+
+4. orchis-theme
+🔹 AR: ثيم أنيق لواجهة GTK مع دعم جيد للظلام/السطوع.
+🔹 EN: A stylish GTK theme with light/dark variants.
+
+5. papirus-icon-theme
+🔹 AR: أيقونات مسطحة شهيرة تدعم عدد كبير من التطبيقات.
+🔹 EN: A popular flat icon theme with wide application support.
+
+6. capitaine-cursors
+🔹 AR: حزمة مؤشرات (كُرسُورات) مستوحاة من macOS.
+🔹 EN: A macOS-inspired cursor theme.
+
+✅ تم توثيق القسم: cinnmon theme icons
+
+✅ قسم: GStreamer Tools - أدوات الصوت والفيديو
+1. gst-libav
+🔹 AR: دعم الترميز والفك باستخدام مكتبة libav.
+🔹 EN: GStreamer plugin for codec support using libav.
+
+2. gst-plugins-ugly
+🔹 AR: مكونات GStreamer تحتوي على ترميزات مرخصة بشكل محدود.
+🔹 EN: GStreamer plugins with restricted or patented codecs.
+
+3. gst-plugins-good
+🔹 AR: مكونات مستقرة ومفتوحة المصدر للصوت والفيديو.
+🔹 EN: Well-supported, open-source audio/video GStreamer plugins.
+
+4. gst-plugins-base
+🔹 AR: مكونات أساسية لـ GStreamer مطلوبة للتشغيل.
+🔹 EN: Base plugins required for GStreamer to function.
+
+5. gst-plugins-bad
+🔹 AR: مكونات تجريبية أو غير مستقرة بعد.
+🔹 EN: Experimental or less stable GStreamer plugins.
+
+✅ تم توثيق القسم: gst-tools
+
+✅ قسم: الخطوط - Fonts
+1. cantarell-fonts
+🔹 AR: الخط الرسمي لبيئة GNOME، سهل القراءة.
+🔹 EN: The official GNOME font, designed for readability.
+
+2. noto-fonts / noto-fonts-extra / noto-fonts-cjk / noto-fonts-emoji
+🔹 AR: خطوط شاملة تغطي كل لغات العالم والرموز التعبيرية.
+🔹 EN: Comprehensive font family supporting all world scripts and emojis.
+
+3. ttf-bitstream-vera
+🔹 AR: خط كلاسيكي يستخدم في الواجهات الرسومية.
+🔹 EN: A classic font widely used in GUIs.
+
+4. ttf-dejavu
+🔹 AR: مجموعة خطوط شاملة تدعم اللغات العالمية.
+🔹 EN: Extended fonts with broad language support.
+
+5. ttf-liberation
+🔹 AR: بديل حر لخطوط Microsoft مثل Arial وTimes.
+🔹 EN: Free alternatives to Microsoft fonts like Arial and Times.
+
+6. ttf-opensans
+🔹 AR: خط أنيق ومقروء لتصميمات الويب والتطبيقات.
+🔹 EN: A clean and readable font widely used in web and UI design.
+
+✅ تم توثيق القسم: fonts
+
+✅ قسم: ألعاب - Games
+1. cuyo
+🔹 AR: لعبة ألغاز ممتعة بأسلوب الأركيد.
+🔹 EN: A fun puzzle arcade game.
+
+2. artikulate
+🔹 AR: لعبة/تطبيق تعليمي لتحسين النطق.
+🔹 EN: Educational pronunciation trainer.
+
+3. blurble
+🔹 AR: لعبة كلمات سريعة قائمة على التفكير.
+🔹 EN: A fast-paced word game.
+
+4. openra
+🔹 AR: إعادة تطوير مفتوحة المصدر لسلسلة ألعاب Red Alert.
+🔹 EN: An open-source remake of the Red Alert RTS series.
+
+✅ تم توثيق القسم: games
+
+✅ قسم: المكتب - Office
+1. libreoffice-still
+🔹 AR: حزمة أوفيس كاملة تشمل Writer وCalc وImpress، بإصدار مستقر طويل الأجل.
+🔹 EN: A full office suite with long-term stable support, includes Writer, Calc, Impress.
+
+✅ تم توثيق القسم: office
+
+✅ قسم: المحررات - Editors
+1. geany
+🔹 AR: محرر خفيف مخصص للمبرمجين، يدعم لغات متعددة.
+🔹 EN: Lightweight editor for programmers, with multi-language support.
+
+2. code (Visual Studio Code)
+🔹 AR: محرر برمجي شهير يدعم الإضافات والمزايا المتقدمة.
+🔹 EN: Popular extensible code editor by Microsoft.
+
+3. meld
+🔹 AR: أداة لمقارنة الملفات والمجلدات برؤية مرئية واضحة.
+🔹 EN: Visual tool for file/folder comparison and merging.
+
+4. python-pyqt5
+🔹 AR: حزمة لتطوير واجهات رسومية باستخدام Python وQt.
+🔹 EN: Python bindings for Qt5 to develop GUI applications.
+
+5. qtcreator
+🔹 AR: بيئة تطوير متكاملة لتطبيقات Qt.
+🔹 EN: Integrated development environment for building Qt applications.
+
+6. qt5-tools
+🔹 AR: أدوات Qt الإضافية مثل Qt Designer.
+🔹 EN: Additional Qt tools like the Qt Designer.
+
+7. dbeaver
+🔹 AR: أداة إدارة قواعد بيانات رسومية تدعم أنواع متعددة.
+🔹 EN: GUI database manager supporting various database systems.
+
+
+🔌 الشبكات والبلوتوث | Network & Bluetooth
+1. networkmanager
+🔹 العربية: أداة قوية لإدارة الاتصالات السلكية واللاسلكية بسهولة.
+🔹 English: A powerful tool for managing wired and wireless connections seamlessly.
+
+2. network-manager-applet
+🔹 العربية: واجهة رسومية في شريط المهام لإدارة الشبكات بسهولة.
+🔹 English: A graphical system tray applet for easy network management.
+
+3. bluez
+🔹 العربية: الحزمة الأساسية لدعم البلوتوث في نظام لينكس.
+🔹 English: The official Linux Bluetooth protocol stack.
+
+4. bluez-utils
+🔹 العربية: أدوات مساعدة إضافية للتحكم في البلوتوث عبر الطرفية.
+🔹 English: Extra utilities to manage Bluetooth devices via terminal.
+
+5. pipewire-pulse
+🔹 العربية: طبقة توافق مع PulseAudio لدمج PipeWire في النظام.
+🔹 English: PulseAudio compatibility layer for integrating PipeWire into the system.
+
+💻 لغات البرمجة | Programming Languages
+1. git
+🔹 العربية: نظام تحكم بالإصدار شهير يستخدمه المطورون لإدارة المشاريع.
+🔹 English: A popular version control system used by developers.
+
+2. php
+🔹 العربية: لغة برمجة لبناء تطبيقات الويب الديناميكية.
+🔹 English: A server-side scripting language for dynamic web development.
+
+3. nodejs
+🔹 العربية: منصة لتنفيذ جافا سكريبت خارج المتصفح لبناء تطبيقات الشبكة.
+🔹 English: A JavaScript runtime built for creating network applications.
+
+4. go
+🔹 العربية: لغة برمجة حديثة من جوجل تركز على الأداء والتوازي.
+🔹 English: A modern programming language by Google focused on performance and concurrency.
+
+5. rust
+🔹 العربية: لغة قوية وآمنة للذاكرة تُستخدم لتطبيقات الأنظمة.
+🔹 English: A memory-safe systems programming language.
+
+6. lua
+🔹 العربية: لغة خفيفة تُستخدم غالبًا في الألعاب والبرامج المضمنة.
+🔹 English: A lightweight scripting language often used in games and embedded systems.
+
+7. sqlite
+🔹 العربية: محرك قاعدة بيانات صغير مدمج في العديد من التطبيقات.
+🔹 English: A self-contained, lightweight SQL database engine.
+
+8. mariadb
+🔹 العربية: نظام قواعد بيانات متقدم مبني على MySQL ومفتوح المصدر.
+🔹 English: A robust open-source relational database system, forked from MySQL.
+
+🎧 الوسائط المتعددة | Multimedia
+1. vlc
+🔹 العربية: مشغل وسائط شهير يدعم جميع الصيغ تقريبًا.
+🔹 English: A popular media player supporting almost all formats.
+
+2. audacious
+🔹 العربية: مشغل موسيقى خفيف وسريع يشبه Winamp.
+🔹 English: A lightweight and fast music player similar to Winamp.
+
+3. vokoscreen
+🔹 العربية: أداة تسجيل شاشة مفيدة لإنشاء شروحات أو محتوى مرئي.
+🔹 English: A screen recording tool for creating tutorials and screencasts.
+
+🌐 الاتصال | Connection
+1. firefox
+🔹 العربية: متصفح ويب مفتوح المصدر سريع وآمن.
+🔹 English: A fast, secure, open-source web browser.
+
+2. kdeconnect
+🔹 العربية: أداة لربط هاتفك الذكي مع جهازك لتبادل الملفات والإشعارات.
+🔹 English: Tool for syncing your smartphone with your computer to share files and notifications.
+
+3. geary
+🔹 العربية: برنامج بريد إلكتروني بسيط وسريع.
+🔹 English: A simple and fast email client.
+
+🖨️ الطباعة | Printing
+1. cups
+🔹 العربية: النظام الأساسي لإدارة الطابعات في لينكس.
+🔹 English: The core printing system for Linux.
+
+2. system-config-printer
+🔹 العربية: واجهة رسومية لإعداد وإدارة الطابعات بسهولة.
+🔹 English: A GUI for configuring and managing printers.
+
+🐳 حاويات Dockers | Docker
+1. docker
+🔹 العربية: نظام حاويات لتشغيل التطبيقات في بيئات معزولة.
+🔹 English: A container platform for running apps in isolated environments.
+
+2. docker-compose
+🔹 العربية: أداة لتشغيل عدة حاويات كخدمة واحدة من خلال ملف YAML.
+🔹 English: Tool to run multiple containers as a service using a YAML file.
+
+3. lazydocker
+🔹 العربية: واجهة طرفية سهلة لإدارة Docker بدون أوامر معقدة.
+🔹 English: A simple terminal UI for managing Docker containers.
+
+🛠️ أدوات النظام | System Tools
+1. htop
+🔹 العربية: أداة متقدمة لمراقبة النظام تعرض العمليات بشكل تفاعلي.
+🔹 English: An interactive process viewer and system monitor.
+
+2. zram-generator
+🔹 العربية: يُستخدم لتحسين الأداء بضغط البيانات في الذاكرة.
+🔹 English: Improves performance by compressing RAM using zRAM.
+
+3. archiso
+🔹 العربية: أداة لبناء ملفات ISO مخصصة لتوزيعات Arch Linux.
+🔹 English: A tool for building custom Arch Linux ISO images.
+
+4. timeshift
+🔹 العربية: أداة لعمل نسخ احتياطية للنظام واستعادته في حال حدوث مشاكل.
+🔹 English: A system restore tool for Linux.
+
+5. gparted
+🔹 العربية: أداة رسومية لإدارة الأقراص والأقسام.
+🔹 English: A GUI tool for disk partitioning and management.
+
+6. ufw
+🔹 العربية: جدار حماية بسيط لإدارة القواعد الأمنية.
+🔹 English: A simple firewall management tool.
+
+7. gufw
+🔹 العربية: واجهة رسومية لـ UFW تسهل إعداد الجدار الناري.
+🔹 English: A GUI for UFW that simplifies firewall configuration.
+
+8. yay
+🔹 العربية: أداة لإدارة الحزم من AUR بسهولة وسرعة.
+🔹 English: A fast and user-friendly AUR helper.
+
+9. pamac-aur
+🔹 العربية: مدير رسومي للحزم مع دعم AUR والتحديثات.
+🔹 English: A graphical package manager with AUR and update support.
 
 

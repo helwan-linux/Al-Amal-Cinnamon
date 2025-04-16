@@ -29,7 +29,7 @@ alias helwan="uname -a"
 # === Clear Screen and Show Welcome Banner ===
 clear
 USER=$(whoami)
-DISTRO="Helwan Linux"
+DISTRO="Helwan O.S"
 
 echo -e "\e[97m\033[1m\033[3m
 ▖▖  ▜        

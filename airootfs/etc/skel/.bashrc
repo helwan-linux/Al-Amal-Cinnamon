@@ -34,9 +34,9 @@ DISTRO="Helwan Linux"
 echo -e "\e[97m\033[1m\033[3m
 ▖▖  ▜        
 ▙▌█▌▐ ▌▌▌▀▌▛▌
-▌▌▙▖▐▖▚▚▘█▌▌▌
+▌▌▙▖▐▖▚▚▘█▌▌▌  Powered By S.M.A Coding Channel
                               
- Welcome back, $USER! You're running $DISTRO. Ready to command the shell 🚀
+ Welcome $USER! You're running $DISTRO. Ready to command the shell 🚀
 \e[0m"
 
 # === Prompt Styling ===

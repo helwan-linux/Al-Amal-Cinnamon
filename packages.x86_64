@@ -281,6 +281,8 @@ zram-generator
 archiso
 timeshift
 gparted
+powertop
+tlp
 ufw
 gufw
 yay

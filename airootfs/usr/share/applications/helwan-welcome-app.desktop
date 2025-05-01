@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Helwan Welcome
+GenericName=Helwan Welcome
+X-GNOME-FullName=Helwan Welcome
+Comment=Welcome Application for HelwanLinux Installs
+Exec=/usr/local/bin/helwan-welcome-app
+Icon=helwan-hello
+Terminal=false
+Type=Application
+Categories=GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Keywords=welcome;tool;
+StartupNotify=true
+Name[en_US]=helwan-welcome-app.desktop

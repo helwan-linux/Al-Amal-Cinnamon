@@ -1,0 +1,44 @@
+# Arabic translation for Helwan Linux Welcome Application
+# Copyright (C) YEAR YOUR_NAME
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar_EG\n"
+
+msgid "Welcome to Helwan Linux"
+msgstr "مرحبًا بك في حلوان لينكس"
+
+msgid "Welcome to the world of Helwan Linux! ❤️\nWe are here to help you build your dreams on the strongest foundation!"
+msgstr "مرحبًا بك في عالم حلوان لينكس! ❤️\nنحن هنا لمساعدتك في بناء أحلامك على أقوى الأسس!"
+
+msgid "Application Language:"
+msgstr "لغة التطبيق:"
+
+msgid "Show on startup"
+msgstr "عرض عند بدء التشغيل"
+
+msgid "Update System (Pacman)"
+msgstr "تحديث النظام (pacman)"
+
+msgid "Update System (Yay)"
+msgstr "تحديث النظام (yay)"
+
+msgid "System Language:"
+msgstr "لغة النظام:"
+
+msgid "Apply System Language"
+msgstr "تطبيق لغة النظام"
+
+msgid "Open Documentation"
+msgstr "فتح الوثائق"
+
+msgid "Open YouTube Channel"
+msgstr "فتح قناة يوتيوب"
+
+msgid "Show System Info"
+msgstr "عرض معلومات النظام"
+
+msgid "Performance Monitor"
+msgstr "مراقب الأداء"

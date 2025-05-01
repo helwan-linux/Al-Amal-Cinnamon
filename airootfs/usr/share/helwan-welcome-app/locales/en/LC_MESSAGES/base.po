@@ -1,0 +1,44 @@
+# English translation for Helwan Linux Welcome Application
+# Copyright (C) YEAR YOUR_NAME
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_US\n"
+
+msgid "Welcome to Helwan Linux"
+msgstr "Welcome to Helwan Linux"
+
+msgid "Welcome to the world of Helwan Linux! ❤️\nWe are here to help you build your dreams on the strongest foundation!"
+msgstr "Welcome to the world of Helwan Linux! ❤️\nWe are here to help you build your dreams on the strongest foundation!"
+
+msgid "Application Language:"
+msgstr "Application Language:"
+
+msgid "Show on startup"
+msgstr "Show on startup"
+
+msgid "Update System (Pacman)"
+msgstr "Update System (Pacman)"
+
+msgid "Update System (Yay)"
+msgstr "Update System (Yay)"
+
+msgid "System Language:"
+msgstr "System Language:"
+
+msgid "Apply System Language"
+msgstr "Apply System Language"
+
+msgid "Open Documentation"
+msgstr "Open Documentation"
+
+msgid "Open YouTube Channel"
+msgstr "Open YouTube Channel"
+
+msgid "Show System Info"
+msgstr "Show System Info"
+
+msgid "Performance Monitor"
+msgstr "Performance Monitor"

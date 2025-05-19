@@ -165,7 +165,7 @@ galculator
 cheese
 gnome-screenshot
 eog
-neofetch
+fastfetch
 gimp
 gnome-keyring
 
@@ -208,6 +208,7 @@ cuyo
 artikulate
 blurble
 openra
+lutris
 
 #########
 #office##
@@ -290,4 +291,5 @@ pamac-aur
 powertop
 hel-welcome-app
 ai-gate
+electron33
 bleachbit

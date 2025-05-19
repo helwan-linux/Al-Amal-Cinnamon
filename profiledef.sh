@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="Helwan_Atluss_Cinnamon_V1.0"
-iso_label="Helwan_Atluss_Cinnamon"
+iso_name="Helwan_Al-amal_Cinnamon_v4"
+iso_label="Helwan_Al-amal_Cinnamon_v4"
 iso_publisher="helwanlinux <helwanlinux@gmail.com>"
 iso_application="Helwan Linux Live/Rescue DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"

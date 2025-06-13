@@ -218,7 +218,6 @@ steam
 #office##
 #########
 libreoffice-still
-hel-markdown
 
 #########
 #editor##
@@ -294,8 +293,13 @@ gufw
 yay
 pamac-aur
 powertop
-hel-welcome-app
-ai-gate
-electron33
 bleachbit
+
+##################
+#helwan-packages##
+##################
 hel-tutorial
+hel-welcome-app
+hel-insight
+hel-ai-gate
+hel-markdown

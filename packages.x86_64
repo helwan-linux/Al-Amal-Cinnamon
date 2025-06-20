@@ -307,3 +307,4 @@ hel-process
 hel-usb-writer
 hel-blocks
 helfetch
+hel-store

@@ -77,7 +77,7 @@ Helwan 5.0 introduces a suite of original applications built in-house to enhance
 
 ## 🌐 Internet & Communication
 
-- Firefox, KDEConnect, HexChat, Geary
+- Firefox, KDEConnect, HexChat, thunderbird
 
 ---
 

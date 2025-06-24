@@ -160,7 +160,7 @@ cinnamon
 nemo-fileroller
 evince
 gedit
-#xfce4-terminal
+xfce4-terminal
 galculator
 cheese
 gnome-screenshot

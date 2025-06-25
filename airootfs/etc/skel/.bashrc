@@ -25,21 +25,3 @@ alias remove="sudo pacman -R"
 alias autoremove="sudo pacman -Rns"
 alias helwan="uname -a"
 
-
-# === Clear Screen and Show Welcome Banner ===
-clear
-USER=$(whoami)
-DISTRO="Helwan O.S"
-
-echo -e "\e[97m\033[1m\033[3m
-▖▖  ▜        
-▙▌█▌▐ ▌▌▌▀▌▛▌
-▌▌▙▖▐▖▚▚▘█▌▌▌  Powered By S.M.A Coding Channel
-                              
- Welcome $USER! You're running $DISTRO. Ready to command the shell 🚀
-\e[0m"
-
-# === Prompt Styling ===
-# كلمة Helwan باللون الأبيض، ثخينة ومائلة
-# السهم باللون الأزرق
-PS1="\[\e[97m\]\033[1m\033[3mHelwan\[\e[0m\] \[\e[34m\]➤ \[\e[0m\]"

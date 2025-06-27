@@ -289,7 +289,6 @@ gparted
 powertop
 tlp
 ufw
-gufw
 yay
 #pamac-aur
 powertop
@@ -309,3 +308,4 @@ hel-blocks
 helfetch
 hel-store
 hel-terminal
+helufw

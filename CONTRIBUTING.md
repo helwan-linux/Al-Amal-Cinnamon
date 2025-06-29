@@ -1,106 +1,117 @@
-# 🤝 Contributing to Helwan Linux
 
-Thank you for your interest in contributing to **Helwan Linux** — an Arch-based Linux distribution built by developers, for developers, with a special focus on the Arabic-speaking community. This project is fully open source and fueled by passion, code, and collaboration.
+# 🌍 Contributing to Helwan Linux
 
-🌐 Official Website: [https://helwan-linux.github.io](https://helwan-linux.github.io)
+Thank you for your interest in contributing to **Helwan Linux** — a modern Arch-based Linux distribution crafted for developers and power users around the world.  
 
----
+Helwan Linux is designed to be **fast**, **focused**, and **friendly** — with special built-in support for Right-to-Left (RTL) languages such as Arabic, Hebrew, and Persian.
 
-## 🚀 What Is Helwan Linux?
-
-Helwan Linux is not just a distro — it's a development ecosystem.
-
-It comes with:
-
-- Developer-first setup (Docker, VTE, GTK, Qt, VSCodium, Rust, etc.)
-- Original tools:
-  - `hel-terminal` – our own terminal emulator
-  - `hel-store` – lightweight GUI app store
-  - `hel-ai-gate` – local AI interface
-  - `hel-welcome-app`, `hel-markdown`, `hel-usb-writer`, and more.
+> "Not just another distro. Helwan is a developer-first ecosystem."
 
 ---
 
-## 🧠 Who We're Looking For
+## 🚀 What Makes Helwan Linux Unique?
 
-We welcome contributors from all backgrounds!  
-You can help us in one or more of these areas:
+Helwan Linux ships with:
 
-### 👨‍💻 Development:
-- **C / GTK / Glib** developers
-- **Shell scripting (bash/zsh)**
-- **Python / Vala / Rust** for core utilities
-
-### 🌍 Localization & Documentation:
-- Arabic ↔ English translators
-- Markdown writers for user guides and docs
-
-### 🎨 Design & UX:
-- UI/UX contributors
-- GTK themes, icons, app branding
+- Over **230+ curated packages** pre-installed.
+- Lightweight environment powered by **Cinnamon**.
+- Developer stack: `Rust`, `Python`, `GTK`, `Qt`, `Docker`, `VTE`, `Flatpak`, `git`.
+- A full suite of original tools, including:
+  - `hel-terminal` – custom terminal emulator
+  - `hel-store` – curated GUI app store
+  - `hel-ai-gate` – AI integration without a browser
+  - `hel-insight` – CSV stats + visualization tool
+  - `hel-welcome-app`, `hel-tutorial`, `hel-markdown`, `hel-process`, `hel-blocks`, and more.
 
 ---
 
-## 📦 How to Contribute
+## 🤝 Who Can Contribute?
+
+Everyone is welcome — from curious first-timers to hardcore hackers.
+
+### 👨‍💻 Developers
+- C / GTK / VTE / Glib / Python / Rust / Shell
+- PyQt / PyGObject / Meson / Ninja
+
+### 🌐 Localization
+- Translators for any RTL or LTR languages
+- Markdown/documentation writers
+
+### 🎨 Designers
+- UX contributors, icon designers, theme creators
+
+---
+
+## 🛠️ How to Contribute
 
 1. **Fork this repository**
-2. **Clone it locally**  
-   `git clone https://github.com/helwan-linux/<repo-name>.git`
+2. **Clone it locally**
+   ```bash
+   git clone https://github.com/helwan-linux/helwan-linux.git
+   ```
 
-3. **Build the project**  
-   Most apps use Meson/Ninja:  
-   `meson build && ninja -C build`  
-   _(Check individual READMEs for exact instructions)_
+3. **Build (per project)**
+   Most tools follow this pattern:
+   ```bash
+   meson setup build
+   ninja -C build
+   ./build/your-app
+   ```
 
-4. **Create a feature/fix branch**  
-   `git checkout -b feature/my-cool-thing`
+4. **Create a branch**
+   ```bash
+   git checkout -b feature/my-awesome-change
+   ```
 
-5. **Push and open a pull request (PR)**
-
----
-
-## 📌 Contribution Guidelines
-
-- Follow the existing **code style** and **naming conventions**
-- Open a **Discussion or Issue** before large feature work
-- Keep PRs **focused and concise**
-- Write **clear commit messages** (e.g., `feat: add dark mode to hel-terminal`)
-- Be respectful, constructive, and open-minded 🫱🏼‍🫲🏽
+5. **Commit, push & open a pull request**
 
 ---
 
-## 🔍 Comparison with Other Arch-based Distributions
+## 🧭 Contribution Guidelines
 
-| Feature / Distro     | **Helwan Linux**                    | EndeavourOS              | ArcoLinux                      |
-|----------------------|-------------------------------------|---------------------------|--------------------------------|
-| 🧩 Base System        | Arch Linux (rolling)                | Arch Linux (rolling)      | Arch Linux (rolling)           |
-| 🎯 Target Audience    | Developers, Arabic speakers         | General Linux users       | Tweakers, advanced users       |
-| 🌐 Language Support   | English + Arabic                    | English only              | English only                   |
-| 🧰 Custom Tools       | ✅ 12+ built-in original tools       | ❌ No                     | ⚠️ Arco Tools installer        |
-| 📦 App Store          | `hel-store` (GUI)                   | ❌                        | ⚠️ AUR helpers via terminal    |
-| 📊 Data Analysis      | `hel-insight` (CSV + stats GUI)     | ❌                        | ❌                             |
-| 🧠 AI Tools           | `hel-ai-gate` (no-browser access)   | ❌                        | ❌                             |
-| 💻 Terminal           | `hel-terminal` (custom emulator)    | Default terminal          | Many terminal configs          |
-| 👋 Welcome App        | `hel-welcome-app`                   | Basic welcome script      | Multiple variants via ISOs     |
-| 📚 Tutorials          | `hel-tutorial` (offline Bash docs)  | ❌                        | ❌                             |
-| 🎮 Game Included      | `hel-blocks` (Tetris-like game)     | ❌                        | ❌                             |
-| 🔒 Firewall GUI       | `helufw` (GUI for UFW)              | ❌                        | ❌                             |
-| 🖥️ Desktop            | Cinnamon (default)                  | XFCE / GNOME / i3 / etc.  | XFCE / Openbox / more          |
-| 🎨 Branding & UX      | Custom icons, theming               | Default DE theming        | Heavy theming variants         |
+- Keep code modular and readable.
+- Use clear commit messages:
+  - `fix: resolve crash in hel-insight`
+  - `feat: added export to Excel in hel-insight`
+- Open an Issue before major design changes.
+- Test with RTL languages (where applicable).
+- Respect your fellow contributors.
 
-> ✅ = Included and integrated  
-> ⚠️ = Exists but not unified or native  
-> ❌ = Not provided by default
- ❌ = Not available by default
+---
+
+## ⚖️ Comparison with Other Distros
+
+| Feature / Distro     | **Helwan Linux**                 | Manjaro                    | EndeavourOS               | Linux Mint                  |
+|----------------------|----------------------------------|----------------------------|----------------------------|-----------------------------|
+| 🧩 Base System        | Arch Linux (rolling)             | Arch (w/ stability layer)  | Arch Linux (pure rolling) | Ubuntu/Debian (stable)      |
+| 🎯 Focus             | Devs, RTL users, minimal tools   | Gaming, multimedia users   | Terminal-first users      | General desktop users       |
+| 🌐 RTL Language Support | ✅ Native + UI ready          | ❌                          | ❌                         | ❌                          |
+| 🧰 Custom Tools       | ✅ 12+ in-house apps              | ⚠️ Minimal helpers          | ⚠️ Basic scripts           | ❌ (relies on upstream)     |
+| 📊 Stats Tools        | `hel-insight`, `hel-process`     | ❌                          | ❌                         | ❌                          |
+| 💻 Terminal           | `hel-terminal`                   | Alacritty / Konsole        | XFCE-Terminal / Tilix     | GNOME Terminal              |
+| 🧠 AI Tools           | `hel-ai-gate` (native)           | ❌                          | ❌                         | ❌                          |
+| 🎨 Theming            | Clean + developer UI             | Heavy (Gaming aesthetic)   | Minimal + user choice     | Green Mint style            |
+| 📦 App Store          | `hel-store` GUI                  | Pamac GUI                  | pacman CLI                | Mint Software Manager       |
+| 👋 Welcome App        | `hel-welcome-app`                | Basic helper launcher      | Intro script              | GTK welcome launcher        |
+| 🐍 Dev Stack Prebuilt | Python, Rust, GTK, Qt, Docker    | Varies                     | Minimal install           | Python + LibreOffice        |
+
+> ✅ = Native and polished  
+> ⚠️ = Exists but limited/customized  
+> ❌ = Not included by default
 
 ---
 
 ## 📣 Final Word
 
-This project started with a vision:  
-**To empower developers in the world with real, open, native tools.**
+We believe open source should be **inclusive**, **efficient**, and **accessible**.
 
-If you're here, you're part of that vision.
+Helwan Linux reflects that by delivering:
 
-Let’s build something meaningful together 🚀  
-— *Saeed Badreldin*
+- Original developer-focused software
+- A clean, RTL-friendly desktop
+- Tools that are fast, native, and yours
+
+If you're reading this, you're already part of it. Let's build something that stands out in the Linux world.
+
+— *Saeed Badreldin*  
+Lead Developer – Helwan Linux

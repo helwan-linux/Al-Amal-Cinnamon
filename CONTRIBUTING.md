@@ -19,7 +19,7 @@ Helwan Linux ships with:
     * `hel-terminal` – custom terminal emulator
     * `hel-store` – curated GUI app store
     * `hel-ai-gate` – AI access gateway (no browser required)
-    * `hel-insight` – CSV statistics and graphing
+    * `hel-insight` – program for statistical analysis of CSV files
     * `hel-welcome-app`, `hel-markdown`, `hel-tutorial`, `hel-process`, `hel-blocks`, and more.
 
 ---

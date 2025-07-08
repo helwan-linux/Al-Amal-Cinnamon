@@ -305,7 +305,7 @@ hel-markdown
 hel-process
 hel-usb-writer
 hel-blocks
-helfetch
+helfetch-ng
 hel-store
 hel-terminal
 helufw

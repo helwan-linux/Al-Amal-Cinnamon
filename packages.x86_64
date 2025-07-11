@@ -212,7 +212,7 @@ lutris
 vkd3d
 gamemode
 mangohud
-steam
+#steam
 
 #########
 #office##
@@ -254,7 +254,7 @@ mariadb
 #############
 #Multimedia##
 #############
-vlc
+mpv
 audacious
 vokoscreen
 
